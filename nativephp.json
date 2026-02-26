@@ -1,0 +1,72 @@
+{
+  "name": "codingwithrk/package-info",
+  "version": "1.0.0",
+  "description": "A NativePHP Mobile plugin provides an API for querying information about an application package.",
+  "namespace": "PackageInfo",
+  "keywords": [
+    "package",
+    "info",
+    "app",
+    "version",
+    "build",
+    "metadata"
+  ],
+  "category": "utilities",
+  "license": "MIT",
+  "pricing": {
+    "type": "free"
+  },
+  "author": {
+    "name": "CodingwithRK",
+    "email": "pappalarajkumar@gmail.com",
+    "url": "https://codingwithrk.com"
+  },
+  "homepage": "",
+  "repository": "",
+  "funding": [],
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "icon": "resources/icon.png",
+  "screenshots": [],
+  "bridge_functions": [
+    {
+      "name": "PackageInfo.GetInfo",
+      "android": "com.codingwithrk.plugins.package_info.PackageInfoFunctions.GetInfo",
+      "ios": "PackageInfoFunctions.GetInfo",
+      "description": "Retrieve application package information (name, version, build number, installer store)"
+    }
+  ],
+  "android": {
+    "permissions": [],
+    "repositories": [],
+    "dependencies": {
+      "implementation": []
+    },
+    "activities": [],
+    "services": [],
+    "receivers": [],
+    "providers": []
+  },
+  "ios": {
+    "permissions": [],
+    "repositories": [],
+    "dependencies": {
+      "swift_packages": [],
+      "pods": []
+    }
+  },
+  "assets": {
+    "android": [],
+    "ios": []
+  },
+  "secrets": [],
+  "events": [
+    "Codingwithrk\\PackageInfo\\Events\\PackageInfoRetrieved"
+  ],
+  "service_provider": "Codingwithrk\\PackageInfo\\PackageInfoServiceProvider",
+  "hooks": {
+    "copy_assets": "nativephp:package-info:copy-assets"
+  }
+}
