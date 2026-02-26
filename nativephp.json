@@ -39,6 +39,7 @@
     }
   ],
   "android": {
+    "min_version": "21",
     "permissions": [],
     "repositories": [],
     "dependencies": {
@@ -50,6 +51,7 @@
     "providers": []
   },
   "ios": {
+    "min_version": "13.0",
     "permissions": [],
     "repositories": [],
     "dependencies": {
