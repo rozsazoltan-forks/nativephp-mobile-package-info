@@ -77,3 +77,7 @@ public function handlePackageInfoRetrieved(PackageInfoData $info): void
 ## Support
 
 For questions or issues, email [connect@codingwithrk.com](mailto:connect@codingwithrk.com)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
