@@ -6,6 +6,8 @@ A NativePHP Mobile plugin that provides an API for querying application package 
 
 ```bash
 composer require codingwithrk/package-info
+
+php artisan native:plugin:register codingwithrk/package-info
 ```
 
 The service provider is auto-discovered by Laravel.
