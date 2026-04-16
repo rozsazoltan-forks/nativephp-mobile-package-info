@@ -1,5 +1,9 @@
 # PackageInfo Plugin for NativePHP Mobile
 
+[![Latest Version](https://img.shields.io/packagist/v/codingwithrk/package-info?style=plastic)](https://packagist.org/packages/codingwithrk/package-info)
+![Packagist Downloads](https://img.shields.io/packagist/dt/codingwithrk/package-info?style=plastic)
+![License](https://img.shields.io/packagist/l/codingwithrk/package-info?style=plastic)
+
 A NativePHP Mobile plugin that provides an API for querying application package information — similar to Flutter's `package_info_plus`.
 
 ## Installation
